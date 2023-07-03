@@ -29,7 +29,7 @@ export const searchAlbums = createAsyncThunk(
         },
         headers: {
           "X-RapidAPI-Key":
-            "37149707ebmsh7abd441c54bb7f1p147a1fjsn0aa037309cc2",
+            "e049e17c1emsh114eee1f05ed5fcp163281jsn70043dfbf204",
           "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
         },
       }

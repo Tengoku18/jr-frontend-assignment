@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import axios from "axios";
@@ -21,7 +19,7 @@ const Gallery = () => {
         },
         headers: {
           "X-RapidAPI-Key":
-            "37149707ebmsh7abd441c54bb7f1p147a1fjsn0aa037309cc2",
+            "e049e17c1emsh114eee1f05ed5fcp163281jsn70043dfbf204",
           "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
         },
       }
