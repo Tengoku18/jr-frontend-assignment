@@ -12,8 +12,6 @@ import HeaderWithButton from "./HeaderWithButton";
 const Gallery = () => {
   const searchedAlbum = useSelector((state) => state.allAlbum.album);
 
-  // console.log("query is sdsdds", storeAlbum);
-
   const getAlbums = async () => {
     const response = await axios.get(
       "https://spotify23.p.rapidapi.com/albums/",
@@ -30,7 +28,6 @@ const Gallery = () => {
     );
     const { data } = response;
     return data.albums;
-    // setAlbums(data.albums);
   };
 
   const {
