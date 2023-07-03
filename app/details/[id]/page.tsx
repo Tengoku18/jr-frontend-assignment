@@ -41,7 +41,7 @@ const Page = ({ params }: any) => {
   if (error) {
     return (
       <h1 className="text-center text-xl ">
-        {" "}
+        {/* @ts-ignore */}
         An error has occured {error?.message}{" "}
       </h1>
     );
