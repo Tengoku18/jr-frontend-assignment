@@ -19,11 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=" bg-slate-700 ">
+{/*         <div className=" bg-slate-700 "> */}
           <QueryClientProvider client={queryClient}>
             {children}
           </QueryClientProvider>
-        </div>
+{/*         </div> */}
       </body>
     </html>
   );
