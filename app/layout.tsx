@@ -1,5 +1,5 @@
 "use client";
-import Root from "@/components/Root";
+// import Root from "@/components/Root";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
@@ -18,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=" bg-slate-700 ">
-          <Root>{children}</Root>
-        </div>
+        {/* <div className=" bg-slate-700 "> */}
+        {children}
+        {/* </div> */}
       </body>
     </html>
   );
